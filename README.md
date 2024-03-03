@@ -44,7 +44,7 @@ With Misskey's built in drive, you get cloud storage right in your social media,
 	It is highly customizable, from changing the layout and adding widgets to making custom themes.
 	Furthermore, plugins can be created using AiScript, an original programming language.
 - And much more...
-
+ss
 </div>
 
 <div style="clear: both;"></div>
