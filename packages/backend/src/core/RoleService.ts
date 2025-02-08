@@ -23,6 +23,7 @@ export type RolePolicies = {
 	canManageCustomEmojis: boolean;
 	canSearchNotes: boolean;
 	canHideAds: boolean;
+  suspendUponAccountDeletion: boolean;
 	driveCapacityMb: number;
 	pinLimit: number;
 	antennaLimit: number;
@@ -42,6 +43,7 @@ export const DEFAULT_POLICIES: RolePolicies = {
 	canInvite: false,
 	canManageCustomEmojis: false,
 	canSearchNotes: false,
+  suspendUponAccountDeletion: false,
 	canHideAds: false,
 	driveCapacityMb: 100,
 	pinLimit: 5,
@@ -268,6 +270,7 @@ export class RoleService implements OnApplicationShutdown {
 			canInvite: calc('canInvite', vs => vs.some(v => v === true)),
 			canManageCustomEmojis: calc('canManageCustomEmojis', vs => vs.some(v => v === true)),
 			canSearchNotes: calc('canSearchNotes', vs => vs.some(v => v === true)),
+      suspendUponAccountDeletion: calc('suspendUponAccountDeletion', vs => vs.some(v => v === true)),
 			canHideAds: calc('canHideAds', vs => vs.some(v => v === true)),
 			driveCapacityMb: calc('driveCapacityMb', vs => Math.max(...vs)),
 			pinLimit: calc('pinLimit', vs => Math.max(...vs)),
@@ -372,7 +375,7 @@ export class RoleService implements OnApplicationShutdown {
 	@bindThis
 	public async unassign(userId: User['id'], roleId: Role['id']): Promise<void> {
 		const now = new Date();
-	
+
 		const existing = await this.roleAssignmentsRepository.findOneBy({ roleId, userId });
 		if (existing == null) {
 			throw new RoleService.NotAssignedError();

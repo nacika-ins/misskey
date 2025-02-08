@@ -1001,7 +1001,7 @@ drivecleaner: "ドライブクリーナー"
 retryAllQueuesNow: "すべてのキューを今すぐ再試行"
 retryAllQueuesConfirmTitle: "今すぐ再試行しますか？"
 retryAllQueuesConfirmText: "一時的にサーバーの負荷が増大することがあります。"
-
+suspendReasonWhenBanRoleIsGranted: "BANロールが付与されている場合アカウント削除に凍結されます"
 _achievements:
   earnedAt: "獲得日時"
   _types:
@@ -1294,6 +1294,7 @@ _role:
     descriptionOfRateLimitFactor: "小さいほど制限が緩和され、大きいほど制限が強化されます。"
     canHideAds: "広告の非表示"
     canSearchNotes: "ノート検索の利用可否"
+    suspendUponAccountDeletion: "アカウント削除時に凍結する"
   _condition:
     isLocal: "ローカルユーザー"
     isRemote: "リモートユーザー"
