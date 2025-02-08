@@ -1276,6 +1276,7 @@ _role:
   _options:
     gtlAvailable: "Kann auf die globale Chronik zugreifen"
     ltlAvailable: "Kann auf die lokale Chronik zugreifen"
+    canNote: "Kann Notizen erstellen"
     canPublicNote: "Kann öffentliche Notizen erstellen"
     canInvite: "Kann Einladungscodes für diese Instanz erstellen"
     canManageCustomEmojis: "Benutzerdefinierte Emojis verwalten"

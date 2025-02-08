@@ -1278,6 +1278,7 @@ _role:
   _options:
     gtlAvailable: "グローバルタイムラインの閲覧"
     ltlAvailable: "ローカルタイムラインの閲覧"
+    canNote: "ノートの投稿"
     canPublicNote: "パブリック投稿の許可"
     canInvite: "サーバー招待コードの発行"
     canManageCustomEmojis: "カスタム絵文字の管理"
@@ -1294,7 +1295,7 @@ _role:
     descriptionOfRateLimitFactor: "小さいほど制限が緩和され、大きいほど制限が強化されます。"
     canHideAds: "広告の非表示"
     canSearchNotes: "ノート検索の利用可否"
-    suspendUponAccountDeletion: "アカウント削除時に凍結する"
+    suspendUponAccountDeletion: "アカウント削除時に凍結"
   _condition:
     isLocal: "ローカルユーザー"
     isRemote: "リモートユーザー"
