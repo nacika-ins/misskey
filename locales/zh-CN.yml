@@ -1276,6 +1276,7 @@ _role:
   _options:
     gtlAvailable: "查看全局时间线"
     ltlAvailable: "查看本地时间线"
+    canNote: "发帖"
     canPublicNote: "允许公开发帖"
     canInvite: "发放实例邀请码"
     canManageCustomEmojis: "管理自定义表情符号"

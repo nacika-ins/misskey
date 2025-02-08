@@ -1276,6 +1276,7 @@ _role:
   _options:
     gtlAvailable: "Explorar la línea de tiempo global"
     ltlAvailable: "Explorar la línea de tiempo local"
+    canNote: "Publicar notas"
     canPublicNote: "Permitir la publicación"
     canInvite: "Puede crear códigos de invitación"
     canManageCustomEmojis: "Administrar emojis personalizados"
