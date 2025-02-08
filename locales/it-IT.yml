@@ -1288,6 +1288,7 @@ _role:
     descriptionOfRateLimitFactor: "I rapporti più bassi sono meno restrittivi, quelli più alti lo sono di più."
     canHideAds: "Può nascondere i banner"
     canSearchNotes: "Ricercare nelle Note"
+    suspendUponAccountDeletion: "Sospendi il profilo alla cancellazione"
   _condition:
     isLocal: "Profilo locale"
     isRemote: "Profilo remoto"
