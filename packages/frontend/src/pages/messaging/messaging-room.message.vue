@@ -437,6 +437,7 @@ async function onPointerup(ev: PointerEvent): Promise<void> {
                   ::v-deep(*) {
                     min-width: 120px;
                     min-height: 120px;
+                    max-width: 100%;
                     max-height: 370px;
                     object-fit: contain;
                   }
@@ -504,6 +505,7 @@ async function onPointerup(ev: PointerEvent): Promise<void> {
                   ::v-deep(*) {
                     min-width: 120px;
                     min-height: 120px;
+                    max-width: 100%;
                     max-height: 370px;
                     object-fit: contain;
                   }
